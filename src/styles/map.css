@@ -1,0 +1,11 @@
+@import url('leaflet/dist/leaflet.css');
+@import url('leaflet-draw/dist/leaflet.draw.css');
+
+/* Corrige acessibilidade do Leaflet Draw */
+.sr-only { display: none; }
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
